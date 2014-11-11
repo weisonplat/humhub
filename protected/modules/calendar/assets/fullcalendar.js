@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     var calendar = $('#calendar').fullCalendar({
         timezone: fullCalendarTimezone,
-        lang: fullCalendarLanguage,
+        lang: fullCalendarLanguage != 'zh_cn' ? fullCalendarLanguage : 'zh-cn',
 //        defaultView: 'agendaWeek',
         defaultView: 'month',
         aspectRatio: 1.5,
