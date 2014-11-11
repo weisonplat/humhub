@@ -1,0 +1,11 @@
+{
+    "id": "tasks",
+    "name": "Tasks",
+    "description": "Simple taskmanager for your spaces.",
+    "keywords": ["task", "todo"],
+    "version": "0.9.10",
+    "humhub": {
+        "minVersion": "0.8"
+    },
+    "screenshots": ["assets/screen1.jpg", "assets/screen2.jpg"]
+}
