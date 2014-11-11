@@ -17,6 +17,6 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Updated :timeago' => '',
-  'in' => '',
+  'Updated :timeago' => '更新于 :timeago',
+  'in' => '在',
 );

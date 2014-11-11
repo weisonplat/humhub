@@ -17,12 +17,12 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  ' Invite and request' => '',
-  'Everyone can enter' => '',
-  'Invite and request' => '',
-  'Only by invite' => '',
-  'Private (Invisible)' => '',
-  'Public (Visible)' => '',
-  'Visible for all' => '',
+  ' Invite and request' => '邀请和申请',
+  'Everyone can enter' => '所有人能进入',
+  'Invite and request' => '邀请和申请',
+  'Only by invite' => '仅被邀请',
+  'Private (Invisible)' => '私有(不可见)',
+  'Public (Visible)' => '公有(可见)',
+  'Visible for all' => '所有人可见',
   'Could not delete user who is a space owner! Name of Space: {spaceName}' => '无法删除用户，用户是版块{spaceName}的主人',
 );

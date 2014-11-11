@@ -17,6 +17,6 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Close' => '',
-  'Attached Files:' => '@@@@',
+  'Close' => '关闭',
+  'Attached Files:' => '附件',
 );

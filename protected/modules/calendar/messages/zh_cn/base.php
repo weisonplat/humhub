@@ -45,4 +45,6 @@ return array (
   'You don\'t have permission to delete this event!' => '你无权删除事件！',
   'You don\'t have permission to edit  this event!' => '你无权编辑事件！',
   'You don\'t have permission to edit this event!' => '你无权编辑事件！',
+  'Is Public' => '是否公开',
+  'Participant Mode' => '参与模式',
 );

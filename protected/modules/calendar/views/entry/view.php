@@ -1,7 +1,7 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <h1>
-            Event: <?php echo $calendarEntry->title; ?>
+            事件: <?php echo $calendarEntry->title; ?>
 
             <?php if ($calendarEntry->is_public): ?>
                 <span class="label label-success"><?php echo Yii::t('CalendarModule.views_entry_view', 'Public'); ?></span>

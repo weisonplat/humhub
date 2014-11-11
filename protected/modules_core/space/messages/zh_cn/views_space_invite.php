@@ -17,13 +17,13 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Invite</strong> members' => '',
-  'Add an user' => '',
-  'Close' => '',
-  'Email addresses' => '',
-  'Invite by email' => '',
-  'Pick users' => '',
-  'Send' => '',
-  'To invite users to this space, please type their names below to find and pick them.' => '',
-  'You can also invite external users, which are not registered now. Just add their e-mail addresses separated by comma.' => '',
+  '<strong>Invite</strong> members' => '<strong>邀请</strong> 新成员',
+  'Add an user' => '添加一个用户',
+  'Close' => '关闭',
+  'Email addresses' => '邮件地址',
+  'Invite by email' => '通过邮件邀请',
+  'Pick users' => '查找用户',
+  'Send' => '发送',
+  'To invite users to this space, please type their names below to find and pick them.' => '想邀请新用户加入此版块, 请输入他们的用户名来查找。',
+  'You can also invite external users, which are not registered now. Just add their e-mail addresses separated by comma.' => '你也可以通过邮件邀请非注册用户。多个邮箱用都逗号隔开。',
 );

@@ -128,6 +128,8 @@ class CalendarEntry extends HActiveRecordContent
             'recur_type' => Yii::t('CalendarModule.base', 'Recur Type'),
             'recur_interval' => Yii::t('CalendarModule.base', 'Recur Interval'),
             'recur_end' => Yii::t('CalendarModule.base', 'Recur End'),
+            'is_public' => Yii::t('CalendarModule.base', 'Is Public'),
+            'participant_mode' => Yii::t('CalendarModule.base', 'Participant Mode'),
         );
     }
 

@@ -81,7 +81,7 @@
                         }
                         ?>
                         <span class="<?php echo $class; ?>"
-                              style="<?php if ($task->status == Task::STATUS_FINISHED): ?>opacity: 0.3;<?php endif; ?>"><?php echo date("d. M", $timestamp); ?></span>
+                              style="<?php if ($task->status == Task::STATUS_FINISHED): ?>opacity: 0.3;<?php endif; ?>"><?php echo date("m月d日", $timestamp); ?></span>
                           <?php endif; ?>
 
                 </small>
