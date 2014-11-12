@@ -26,7 +26,7 @@ class AccountRegisterForm extends CFormModel {
         
         $email = User::model()->resetScope()->findByAttributes(array('email' => $this->$attribute));
         if ($email !== null) {
-            $this->addError($attribute, 'E-Mail is already in use! - Try forgot password.');
+            $this->addError($attribute, '邮箱已被注册--如果忘记密码试试找回密码。');
         }
         
     } 

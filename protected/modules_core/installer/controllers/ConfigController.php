@@ -222,8 +222,8 @@ class ConfigController extends Controller
 
             // Create Welcome Space
             $space = new Space();
-            $space->name = 'Welcome Space';
-            $space->description = 'Your first sample space to discover the platform.';
+            $space->name = '示例版块';
+            $space->description = '第一个版块';
             $space->join_policy = Space::JOIN_POLICY_FREE;
             $space->visibility = Space::VISIBILITY_ALL;
             $space->created_by = $userId;
@@ -235,7 +235,7 @@ class ConfigController extends Controller
 
             // Add Some Post to the Space
             $post = new Post();
-            $post->message = "Yay! I've just installed HumHub :-)";
+            $post->message = "大家好! 我创建了第一个版块！";
             $post->content->container = $space;
             $post->content->visibility = Content::VISIBILITY_PUBLIC;
             $post->save();
