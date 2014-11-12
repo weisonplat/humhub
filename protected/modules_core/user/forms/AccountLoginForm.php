@@ -42,6 +42,7 @@ class AccountLoginForm extends CFormModel
         return array(
             'rememberMe' => Yii::t('UserModule.forms_AccountLoginForm', 'Remember me next time'),
             'password'=>'密 码',
+            'username'=>'用户名',
         );
     }
 

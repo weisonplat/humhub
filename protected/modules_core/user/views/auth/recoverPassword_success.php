@@ -3,10 +3,10 @@
     <br/>
     <div class="row">
         <div class="panel panel-default animated fadeIn" style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
-            <div class="panel-heading"><?php echo Yii::t('UserModule.views_auth_recoverPassword_success', '<strong>Password</strong> recovery!'); ?></div>
+            <div class="panel-heading"><?php echo Yii::t('UserModule.views_auth_recoverPassword_success', '<strong>找回</strong> 密码!'); ?></div>
             <div class="panel-body">
-                <p><?php echo Yii::t('UserModule.views_auth_recoverPassword_success', "You've got an e-mail with a new password."); ?></p><br/>
-                <a href="<?php echo $this->createUrl('//') ?>" class="btn btn-primary"><?php echo Yii::t('UserModule.views_auth_recoverPassword_success', 'back to home') ?></a>
+                <p><?php echo Yii::t('UserModule.views_auth_recoverPassword_success', "新密码已经发送到了你的邮箱，请查看。"); ?></p><br/>
+                <a href="<?php echo $this->createUrl('//') ?>" class="btn btn-primary"><?php echo Yii::t('UserModule.views_auth_recoverPassword_success', '返回首页') ?></a>
             </div>
         </div>
     </div>

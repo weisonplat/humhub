@@ -26,7 +26,7 @@
                                                     <td width="auto"  align="center" valign="middle" height="28" style=" background-color:#ffffff; background-clip: padding-box; font-size:26px; font-family:Open Sans, Arial,Tahoma, Helvetica, sans-serif; text-align:center;  color:#a3a2a2; font-weight: 300; padding-left:18px; padding-right:18px; ">
 
                              <span style="color: #555555; font-weight: 300;">
-                               <?php echo Yii::t('UserModule.views_mails_RecoverPassword', '<strong>Password</strong> recovery'); ?>
+                               <?php echo Yii::t('UserModule.views_mails_RecoverPassword', '<strong>找回</strong> 密码'); ?>
                              </span>
                                                     </td>
                                                 </tr>
@@ -88,13 +88,13 @@
                                                 <tr>
                                                     <td  style="font-size: 14px; line-height: 22px; font-family:Open Sans,Arial,Tahoma, Helvetica, sans-serif; color:#777777; font-weight:300; text-align:left; ">
 
-                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', 'Hello {displayName}, ', array('{displayName}' => $user->displayName)); ?>
+                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', '你好 {displayName}, ', array('{displayName}' => $user->displayName)); ?>
                                                         <br><br>
-                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', 'You have requested a new password.'); ?>
+                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', '你请求到了一个新密码。'); ?>
                                                         <br>
-                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', 'Your username is: <strong>{username}</strong>', array('{username}' => $user->username)); ?>
+                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', '你的用户名是: <strong>{username}</strong>', array('{username}' => $user->username)); ?>
                                                         <br>
-                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', 'Your new password is: <strong>{password}</strong>', array('{password}' => $newPassword)); ?>
+                                                        <?php echo Yii::t('UserModule.views_mails_RecoverPassword', '你的新密码是: <strong>{password}</strong>', array('{password}' => $newPassword)); ?>
                                                         <br>
 
                                                     </td>
@@ -122,7 +122,7 @@
 
                              <span style="color: #ffffff; font-weight: 300;">
                                <a href="<?php echo Yii::app()->createAbsoluteUrl("//user/auth/login"); ?>" style="text-decoration: none; color: #ffffff; font-weight: 300;">
-                                   <strong><?php echo Yii::t('UserModule.views_mails_RecoverPassword', 'Login'); ?></strong>
+                                   <strong><?php echo Yii::t('UserModule.views_mails_RecoverPassword', '登 录'); ?></strong>
                                </a>
                              </span>
                                                     </td>

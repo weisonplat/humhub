@@ -70,7 +70,7 @@ class AccountRecoverPasswordForm extends CFormModel {
         $message->view = "application.modules_core.user.views.mails.RecoverPassword";
         $message->addFrom(HSetting::Get('systemEmailAddress', 'mailing'), HSetting::Get('systemEmailName', 'mailing'));
         $message->addTo($this->email);
-        $message->subject = Yii::t('UserModule.forms_AccountRecoverPasswordForm', 'Password Recovery');
+        $message->subject = Yii::t('UserModule.forms_AccountRecoverPasswordForm', '找回密码');
         $message->setBody(array('user' => $user, 'newPassword' => $newPassword), 'text/html');
         Yii::app()->mail->send($message);
     }

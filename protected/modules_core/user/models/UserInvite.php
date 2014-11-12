@@ -146,7 +146,7 @@ class UserInvite extends HActiveRecord {
             $message->view = "application.modules_core.user.views.mails.UserInviteSelf";
             $message->addFrom(HSetting::Get('systemEmailAddress', 'mailing'), HSetting::Get('systemEmailName', 'mailing'));
             $message->addTo($this->email);
-            $message->subject = 'Registration Link';
+            $message->subject = '注册新用户';
             $message->setBody(array('token' => $this->token), 'text/html');
             Yii::app()->mail->send($message);
         } elseif ($this->source == self::SOURCE_INVITE) {
