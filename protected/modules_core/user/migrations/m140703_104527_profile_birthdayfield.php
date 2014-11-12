@@ -15,7 +15,7 @@ class m140703_104527_profile_birthdayfield extends EDbMigration
             $categoryId = $db->createCommand()
                     ->select('id')
                     ->from('profile_field_category')
-                    ->where('title=:title', array(':title' => '一般信息'))
+                    ->where('title=:title', array(':title' => 'General'))
                     ->queryScalar();
 
             // Check if we got a category Id
@@ -29,7 +29,7 @@ class m140703_104527_profile_birthdayfield extends EDbMigration
                 'field_type_class' => 'ProfileFieldTypeBirthday',
                 'field_type_config' => '',
                 'internal_name' => 'birthday',
-                'title' => '生日',
+                'title' => 'Birthday',
                 'sort_order' => '850',
                 'editable' => '1',
                 'is_system' => '1',

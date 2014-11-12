@@ -16,7 +16,7 @@ class m140701_000611_profile_genderfield extends EDbMigration
             $categoryId = $db->createCommand()
                     ->select('id')
                     ->from('profile_field_category')
-                    ->where('title=:title', array(':title' => '一般信息'))
+                    ->where('title=:title', array(':title' => 'General'))
                     ->queryScalar();
 
             // Check if we got a category Id
@@ -30,7 +30,7 @@ class m140701_000611_profile_genderfield extends EDbMigration
                 'field_type_class' => 'ProfileFieldTypeSelect',
                 'field_type_config' => '{"options":"male=>Male\r\nfemale=>Female\r\ncustom=>Custom"}',
                 'internal_name' => 'gender',
-                'title' => '性别',
+                'title' => 'Gender',
                 'sort_order' => '350',
                 'editable' => '1',
                 'visible' => '1',
