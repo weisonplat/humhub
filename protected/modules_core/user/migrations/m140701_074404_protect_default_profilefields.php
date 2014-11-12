@@ -26,7 +26,7 @@ class m140701_074404_protect_default_profilefields extends EDbMigration
 
         $this->update('profile_field', array(
             'is_system' => 1
-                ), 'title="General" OR title="Communication" OR title="Social bookmarks"');
+                ), 'title="一般信息" OR title="通讯信息" OR title="社交标签"');
     }
 
     public function down()
