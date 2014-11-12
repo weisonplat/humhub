@@ -98,9 +98,9 @@ class UserPassword extends HActiveRecord {
     public function attributeLabels()
     {
         return array(
-            'currentPassword' => Yii::t('UserModule.forms_AccountLoginForm', 'Current password'),
-            'newPassword' => Yii::t('UserModule.forms_AccountLoginForm', 'New password'),
-            'newPasswordConfirm' => Yii::t('UserModule.forms_AccountLoginForm', 'New password confirm'),
+            'currentPassword' => Yii::t('UserModule.forms_AccountLoginForm', '当前密码'),
+            'newPassword' => Yii::t('UserModule.forms_AccountLoginForm', '新密码'),
+            'newPasswordConfirm' => Yii::t('UserModule.forms_AccountLoginForm', '确认新密码'),
         );
     }
 

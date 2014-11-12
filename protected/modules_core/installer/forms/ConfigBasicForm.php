@@ -44,7 +44,7 @@ class ConfigBasicForm extends CFormModel {
      */
     public function attributeLabels() {
         return array(
-            'name' => Yii::t('InstallerModule.config', 'Name of your network'),
+            'name' => Yii::t('InstallerModule.config', '你社交平台的名字'),
         );
     }
 

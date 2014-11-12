@@ -172,7 +172,7 @@ class ConfigController extends Controller
             'save' => array(
                 'type' => 'submit',
                 'class' => 'btn btn-primary',
-                'label' => Yii::t('InstallerModule.base', 'Create Admin Account'),
+                'label' => Yii::t('InstallerModule.base', '创建管理帐户'),
             ),
         );
 
@@ -204,7 +204,7 @@ class ConfigController extends Controller
             $form['User']->model->save();
 
             $form['Profile']->model->user_id = $form['User']->model->id;
-            $form['Profile']->model->title = "System Administration";
+            $form['Profile']->model->title = "系统管理员";
             $form['Profile']->model->save();
 
             // Save User Password
@@ -323,7 +323,7 @@ class ConfigController extends Controller
 
         // Add Categories
         $cGeneral = new ProfileFieldCategory;
-        $cGeneral->title = "General";
+        $cGeneral->title = "普通信息";
         $cGeneral->sort_order = 100;
         $cGeneral->visibility = 1;
         $cGeneral->is_system = 1;
@@ -331,7 +331,7 @@ class ConfigController extends Controller
         $cGeneral->save();
 
         $cCommunication = new ProfileFieldCategory;
-        $cCommunication->title = "Communication";
+        $cCommunication->title = "通讯信息";
         $cCommunication->sort_order = 200;
         $cCommunication->visibility = 1;
         $cCommunication->is_system = 1;
@@ -339,7 +339,7 @@ class ConfigController extends Controller
         $cCommunication->save();
 
         $cSocial = new ProfileFieldCategory;
-        $cSocial->title = "Social bookmarks";
+        $cSocial->title = "社交信息";
         $cSocial->sort_order = 300;
         $cSocial->visibility = 1;
         $cSocial->is_system = 1;
@@ -349,7 +349,7 @@ class ConfigController extends Controller
         // Add Fields
         $field = new ProfileField();
         $field->internal_name = "firstname";
-        $field->title = 'Firstname';
+        $field->title = '姓';
         $field->sort_order = 100;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -366,7 +366,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "lastname";
-        $field->title = 'Lastname';
+        $field->title = '名';
         $field->sort_order = 200;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -381,7 +381,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "title";
-        $field->title = 'Title';
+        $field->title = '标题';
         $field->sort_order = 300;
         $field->ldap_attribute = 'title';
         $field->profile_field_category_id = $cGeneral->id;
@@ -394,7 +394,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "gender";
-        $field->title = 'Gender';
+        $field->title = '性别';
         $field->sort_order = 300;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeSelect';
@@ -406,7 +406,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "street";
-        $field->title = 'Street';
+        $field->title = '街道信息';
         $field->sort_order = 400;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -418,7 +418,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "zip";
-        $field->title = 'Zip';
+        $field->title = '邮政编码';
         $field->sort_order = 500;
         $field->profile_field_category_id = $cGeneral->id;
         $field->is_system = 1;
@@ -430,7 +430,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "city";
-        $field->title = 'City';
+        $field->title = '市';
         $field->sort_order = 600;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -442,7 +442,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "country";
-        $field->title = 'Country';
+        $field->title = '国家';
         $field->sort_order = 700;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -455,7 +455,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "state";
-        $field->title = 'State';
+        $field->title = '国家';
         $field->sort_order = 800;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -467,7 +467,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "birthday";
-        $field->title = 'Birthday';
+        $field->title = '生日';
         $field->sort_order = 900;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeBirthday';
@@ -478,7 +478,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "about";
-        $field->title = 'About';
+        $field->title = '关于';
         $field->sort_order = 900;
         $field->profile_field_category_id = $cGeneral->id;
         $field->field_type_class = 'ProfileFieldTypeTextArea';
@@ -491,7 +491,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "phone_private";
-        $field->title = 'Phone Private';
+        $field->title = '私人电话';
         $field->sort_order = 100;
         $field->profile_field_category_id = $cCommunication->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -503,7 +503,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "phone_work";
-        $field->title = 'Phone Work';
+        $field->title = '工作电话';
         $field->sort_order = 200;
         $field->profile_field_category_id = $cCommunication->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -515,7 +515,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "mobile";
-        $field->title = 'Mobile';
+        $field->title = '移动电话';
         $field->sort_order = 300;
         $field->profile_field_category_id = $cCommunication->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -527,7 +527,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "fax";
-        $field->title = 'Fax';
+        $field->title = '传真号';
         $field->sort_order = 400;
         $field->profile_field_category_id = $cCommunication->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -539,7 +539,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "im_skype";
-        $field->title = 'Skype Nickname';
+        $field->title = 'Skype 昵称';
         $field->sort_order = 500;
         $field->profile_field_category_id = $cCommunication->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -564,7 +564,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "im_icq";
-        $field->title = 'ICQ Number';
+        $field->title = 'ICQ 号码';
         $field->sort_order = 700;
         $field->profile_field_category_id = $cCommunication->id;
         $field->field_type_class = 'ProfileFieldTypeNumber';
@@ -575,7 +575,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "im_xmpp";
-        $field->title = 'XMPP Jabber Address';
+        $field->title = 'XMPP Jabber 地址';
         $field->sort_order = 800;
         $field->profile_field_category_id = $cCommunication->id;
         $field->field_type_class = 'ProfileFieldTypeText';
@@ -587,7 +587,7 @@ class ConfigController extends Controller
 
         $field = new ProfileField();
         $field->internal_name = "url";
-        $field->title = 'Url';
+        $field->title = '个人网址';
         $field->sort_order = 100;
         $field->profile_field_category_id = $cSocial->id;
         $field->field_type_class = 'ProfileFieldTypeText';

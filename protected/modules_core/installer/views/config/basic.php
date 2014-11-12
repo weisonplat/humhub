@@ -1,12 +1,12 @@
 <div id="name-form" class="panel panel-default animated fadeIn">
 
     <div class="install-header install-header-small" style="background-image: url('<?php echo $this->module->assetsUrl; ?>/humhub-install-header.jpg');">
-        <h2 class="install-header-title"><?php echo Yii::t('InstallerModule.base', 'Social Network <strong>Name</strong>'); ?></h2>
+        <h2 class="install-header-title"><?php echo Yii::t('InstallerModule.base', '社交网络 <strong>名字</strong>'); ?></h2>
     </div>
 
     <div class="panel-body">
 
-        <p>Of course, your new social network needs a name. Please change the default name with one you like. (For example the name of your company, organization or club)</p>
+        <p>当然，你的新社交网络平台需要一个名字。请更改默认名称为你喜欢的名字。（例如，你的公司，组织或俱乐部的名字）</p>
 
         <?php
         $form = $this->beginWidget('CActiveForm', array(
@@ -23,7 +23,7 @@
 
         <hr>
 
-        <?php echo CHtml::submitButton(Yii::t('InstallerModule.base', 'Next'), array('class' => 'btn btn-primary')); ?>
+        <?php echo CHtml::submitButton(Yii::t('InstallerModule.base', '下一步'), array('class' => 'btn btn-primary')); ?>
 
         <?php $this->endWidget(); ?>
     </div>

@@ -1,11 +1,11 @@
 <div id="create-admin-account-form" class="panel panel-default animated fadeIn">
 
     <div class="install-header install-header-small" style="background-image: url('<?php echo $this->module->assetsUrl; ?>/humhub-install-header.jpg');">
-        <h2 class="install-header-title"><?php echo Yii::t('InstallerModule.base', '<strong>Admin</strong> Account'); ?></h2>
+        <h2 class="install-header-title"><?php echo Yii::t('InstallerModule.base', '<strong>管理账户</strong> 配置'); ?></h2>
     </div>
 
     <div class="panel-body">
-        <p><?php echo Yii::t('InstallerModule.base', "You're almost done. In the last step you have to fill out the form to create an admin account. With this account you can manage the whole network."); ?></p>
+        <p><?php echo Yii::t('InstallerModule.base', "你几乎完成了。但你必须完成最后一步，填写表格来创建一个管理员帐户。这个帐户用来管理整个网络。"); ?></p>
         <hr/>
         <?php echo $form; ?>
 
