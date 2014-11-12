@@ -332,7 +332,7 @@ class HSetting extends HActiveRecord
         if ($defaultLanguage !== null && $defaultLanguage != "") {
             $config['language'] = HSetting::Get('defaultLanguage');
         } else {
-            $config['language'] = 'en';
+            $config['language'] = 'zh_cn';
         }
 
         // Add Caching

@@ -5,7 +5,6 @@ return array(
     // Default Application Name
     'name' => 'HumHub',
     'preload' => array('log', 'input'),
-    'language'=>'zh_cn',
     'components' => array(
         // Database
         'db' => array(
