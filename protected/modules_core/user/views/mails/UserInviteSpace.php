@@ -189,7 +189,7 @@
                                                         <!-- START: CONTENT -->
                                                         <?php echo Yii::t('UserModule.views_mails_UserInviteSpace', 'invited you to the space:'); ?>
                                                         <strong><?php echo $workspaceName; ?></strong>
-                                                        at <?php echo Yii::app()->name; ?>.<?php echo Yii::t('UserModule.views_mails_UserInviteSpace', '<br>A social network to increase your communication and teamwork.<br>Register now
+                                                        在 <?php echo Yii::app()->name; ?>.<?php echo Yii::t('UserModule.views_mails_UserInviteSpace', '<br>A social network to increase your communication and teamwork.<br>Register now
                                                         to join this space.'); ?><br/>
                                                         &nbsp;
                                                         <!-- END: CONTENT -->
@@ -218,7 +218,7 @@
 
                              <span style="color: #ffffff; font-weight: 300;">
                                <a href="<?php echo Yii::app()->createAbsoluteUrl("user/auth/createAccount", array('token' => $token)); ?>" style="text-decoration: none; color: #ffffff; font-weight: 300;">
-                                   <strong><?php echo Yii::t('MailModule.views_mails_UserInviteSpace', 'Sign up now'); ?></strong>
+                                   <strong><?php echo Yii::t('MailModule.views_mails_UserInviteSpace', '现在注册'); ?></strong>
                                </a>
                              </span>
                                                     </td>

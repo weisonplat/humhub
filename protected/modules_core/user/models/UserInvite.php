@@ -155,7 +155,7 @@ class UserInvite extends HActiveRecord {
             $message->view = "application.modules_core.user.views.mails.UserInviteSpace";
             $message->addFrom(HSetting::Get('systemEmailAddress', 'mailing'), HSetting::Get('systemEmailName', 'mailing'));
             $message->addTo($this->email);
-            $message->subject = 'Space Invite';
+            $message->subject = '邀请信';
             $message->setBody(array(
                 'originator' => $this->userOriginator,
                 'originatorName' => $this->userOriginator->displayName,

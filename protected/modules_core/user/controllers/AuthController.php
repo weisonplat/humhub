@@ -177,7 +177,7 @@ class AuthController extends Controller
         $needApproval = HSetting::Get('needApproval', 'authentication_internal');
 
         if (!Yii::app()->user->isGuest)
-            throw new CHttpException(401, 'Your are already logged in! - Logout first!');
+            throw new CHttpException(401, '您已经登录! - 请先退出!');
 
         // Check for valid user invite
         $userInvite = UserInvite::model()->findByAttributes(array('token' => Yii::app()->request->getQuery('token')));

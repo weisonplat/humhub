@@ -72,7 +72,7 @@ class UserPassword extends HActiveRecord {
         if ($this->scenario == 'newPassword' || $this->scenario == 'changePassword') {
             $rules[] = array('newPassword', 'length', 'min' => 5, 'max' => 255);
             $rules[] = array('newPassword, newPasswordConfirm', 'required');
-            $rules[] = array('newPassword', 'compare', 'compareAttribute' => 'newPasswordConfirm', 'message' => 'Passwords did not match!');
+            $rules[] = array('newPassword', 'compare', 'compareAttribute' => 'newPasswordConfirm', 'message' => '密码不匹配!');
         }
 
         if ($this->scenario == 'changePassword') {

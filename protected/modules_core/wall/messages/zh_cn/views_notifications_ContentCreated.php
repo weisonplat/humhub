@@ -17,6 +17,6 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '{userName} created a new {contentTitle}.' => '',
-  '{userName} notified you about a new {contentTitle}.' => '@@@@',
+  '{userName} created a new {contentTitle}.' => '{userName} 创建了一个新的 {contentTitle}。',
+  '{userName} notified you about a new {contentTitle}.' => '{userName} 通知你关于一个新的 {contentTitle}.',
 );

@@ -22,4 +22,5 @@ return array (
 加入这个空间。',
   'You got a <strong>space</strong> invite' => '你收到一个 <strong>版块</strong>邀请 ',
   'invited you to the space:' => '邀请你加入版块：',
+  'Sign up now'=>'现在注册',
 );
