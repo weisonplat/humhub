@@ -1,7 +1,7 @@
 {
     "id": "tasks",
-    "name": "Tasks",
-    "description": "Simple taskmanager for your spaces.",
+    "name": "任务系统",
+    "description": "适用于版块的任务管理系统.",
     "keywords": ["task", "todo"],
     "version": "0.9.10",
     "humhub": {

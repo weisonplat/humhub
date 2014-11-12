@@ -1,7 +1,7 @@
 {
     "id": "calendar",
-    "name": "Calendar - Beta",
-    "description": "Calendar for spaces or user profiles.",
+    "name": "日历模块",
+    "description": "适用于版块和用户属性页的简单的日历模块。",
     "keywords": ["calendar"],
     "version": "0.1.0",
     "humhub": {

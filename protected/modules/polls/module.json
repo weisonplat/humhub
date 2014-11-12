@@ -1,7 +1,7 @@
 {
     "id": "polls",
-    "name": "Polls",
-    "description": "Simple polling system for spaces",
+    "name": "投票插件",
+    "description": "适用于版块的简单的投票系统。",
     "keywords": ["poll", "voting"],
     "version": "0.6.5",
     "humhub": {
