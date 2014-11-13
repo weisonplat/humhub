@@ -5,11 +5,11 @@
         <?php echo $this->renderPartial('_header'); ?>
         <br/>
 
-        <h1><?php echo Yii::t('AdminModules.module_listUpdates', '<strong>Available</strong> Updates'); ?></h1>
+        <h1><?php echo Yii::t('AdminModule.views_module_listUpdates', '<strong>Available</strong> Updates'); ?></h1>
 
         <?php if (count($modules) == 0): ?>
 
-            <div><?php echo Yii::t('AdminModules.module_listUpdates', 'All modules are up to date!'); ?></div>
+            <div><?php echo Yii::t('AdminModule.views_module_listUpdates', 'All modules are up to date!'); ?></div>
 
         <?php endif; ?>
 

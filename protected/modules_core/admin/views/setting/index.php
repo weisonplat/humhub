@@ -40,7 +40,7 @@
         <p class="help-block"><?php echo Yii::t('AdminModule.views_setting_index', 'New users will automatically added to these space(s).'); ?></p>
 
 
-        <strong>Introduction tour</strong>
+        <strong>新用户显示向导</strong>
         <div class="form-group">
             <div class="checkbox">
                 <label>

@@ -11,11 +11,11 @@
         <ul>
             <?php foreach (ProfileFieldCategory::model()->findAll(array('order' => 'sort_order')) as $category): ?>
             <li>
-                <a href="<?php echo $this->createUrl('editCategory', array('id' => $category->id)); ?>">Category: <?php echo $category->title; ?></a>
+                <a href="<?php echo $this->createUrl('editCategory', array('id' => $category->id)); ?>">类型: <?php echo $category->title; ?></a>
                 <ul class="admin-userprofiles-fields">
                     <?php foreach (ProfileField::model()->findAllByAttributes(array('profile_field_category_id' => $category->id), array('order' => 'sort_order')) as $field) : ?>
                         <li class="admin-userprofiles-field" data-id="<?php echo $field->id ?>">
-                            <a href="<?php echo $this->createUrl('editField', array('id' => $field->id)); ?>">Field: <?php echo $field->title; ?></a>
+                            <a href="<?php echo $this->createUrl('editField', array('id' => $field->id)); ?>">属性域: <?php echo $field->title; ?></a>
                         </li>
                     <?php endforeach; ?>
                 </ul>

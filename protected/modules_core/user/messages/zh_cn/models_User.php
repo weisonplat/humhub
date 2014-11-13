@@ -17,7 +17,7 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Authentication mode' => '',
+  'Authentication mode' => '认证模式',
   'ID' => '',
   'Created At' => '创建时间',
   'Created by' => '创建人',

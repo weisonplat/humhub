@@ -196,6 +196,8 @@ class User extends HActiveRecordContentContainer implements ISearchable
             'tags' => Yii::t('UserModule.models_User', 'Tags'),
             'auth_mode' => Yii::t('UserModule.models_User', 'Authentication mode'),
             'language' => Yii::t('UserModule.models_User', 'Language'),
+            'super_admin' => '超级管理员',
+            'status' => '状态',
 
             'created_at' => Yii::t('UserModule.models_User', 'Created At'),
             'created_by' => Yii::t('UserModule.models_User', 'Created by'),

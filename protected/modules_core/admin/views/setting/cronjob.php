@@ -3,7 +3,7 @@
     <div class="panel-body">
 
         <p>
-            <strong>Status:</strong><br/>
+            <strong>状态:</strong><br/>
             <?php
             $lastRunHourly = HSetting::get('cronLastHourlyRun');
             $lastRunDaily = HSetting::get('cronLastDailyRun');

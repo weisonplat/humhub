@@ -17,6 +17,6 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Space</strong> Settings' => '',
-  'Save' => '',
+  '<strong>Space</strong> Settings' => '<strong>版块</strong> 设置',
+  'Save' => '保 存',
 );

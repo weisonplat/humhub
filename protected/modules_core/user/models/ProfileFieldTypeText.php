@@ -86,8 +86,8 @@ class ProfileFieldTypeText extends ProfileFieldType {
                                 'type' => 'dropdownlist',
                                 'class' => 'form-control',
                                 'items' => array(
-                                    '' => 'None',
-                                    self::VALIDATOR_EMAIL => 'E-Mail Address',
+                                    '' => '无',
+                                    self::VALIDATOR_EMAIL => '邮件地址',
                                     self::VALIDATOR_URL => 'URL',
                                 ),
                             ),

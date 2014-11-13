@@ -83,7 +83,7 @@ class UserController extends Controller
         // Add User Form
         $definition['elements']['User'] = array(
             'type' => 'form',
-            'title' => 'Account',
+            'title' => '帐户主信息',
             'elements' => array(
                 'username' => array(
                     'type' => 'text',

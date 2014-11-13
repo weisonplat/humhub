@@ -5,10 +5,10 @@
         <?php echo $this->renderPartial('_header'); ?>
         <br/>
 
-        <h1><?php echo Yii::t('AdminModules.module_list', '<strong>Currently</strong> installed modules'); ?></h1>
+        <h1><?php echo Yii::t('AdminModule.views_module_list', '<strong>Currently</strong> installed modules'); ?></h1>
 
         <?php if (count($installedModules) == 0): ?>
-            <div><?php echo Yii::t('AdminModules.module_list', 'No modules installed yet. Install some to enhance the functionality!'); ?></div>
+            <div><?php echo Yii::t('AdminModule.views_module_list', 'No modules installed yet. Install some to enhance the functionality!'); ?></div>
         <?php endif; ?>
 
         <?php foreach ($installedModules as $moduleId => $module) : ?>
@@ -32,7 +32,7 @@
 
                     <div class="module-controls">
 
-                        <?php echo Yii::t('AdminModules.module_list', 'Version:'); ?> <?php echo $module->getVersion(); ?>
+                        <?php echo Yii::t('AdminModule.views_module_list', 'Version:'); ?> <?php echo $module->getVersion(); ?>
 
                         <?php if ($module->isEnabled()) : ?>
                             <?php if ($module->getConfigUrl()) : ?>

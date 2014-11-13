@@ -18,4 +18,5 @@
  */
 return array (
   '<strong>About</strong> HumHub' => '<strong>关于</strong> HumHub',
+  'Version:' => '版本：',
 );

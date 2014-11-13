@@ -226,6 +226,19 @@ class ProfileFieldType extends CFormModel
     }
 
 
+    public function attributeLabels()
+    {
+        return array(
+            'maxLength'=>'最大长度',
+            'minLength' => '最小长度',
+            'validator' => '验证器',
+            'default' => '默认',
+            'regexp' => '正则表达式',
+            'regexpErrorMessage' => '正则表达式匹配错误信息',
+        );
+    }
+
+
 
 }
 

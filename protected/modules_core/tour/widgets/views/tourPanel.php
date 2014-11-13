@@ -3,10 +3,10 @@
     // Temporary workaround till panel widget rewrite in 0.10 verion
     $removeOptionHtml = "<li>" . $this->widget('application.widgets.ModalConfirmWidget', array(
                 'uniqueID' => 'hide-panel-button',
-                'title' => '<strong>Remove</strong> tour panel',
-                'message' => 'This action will remove the tour panel from your dashboard. You can reactivate it at<br>Account settings <i class="fa fa-caret-right"></i> Settings.',
-                'buttonTrue' => 'Ok',
-                'buttonFalse' => 'Cancel',
+                'title' => '<strong>移除</strong> 向导面板',
+                'message' => '这个操作会将用户指南面板从你的主面板上移除。你可以在<br/><b>账户设置 <i class="fa fa-caret-right"></i> 设置 </b>里重新激活它。',
+                'buttonTrue' => '确 认',
+                'buttonFalse' => '取 消',
                 'linkContent' => '<i class="fa fa-eye-slash"></i> ' . Yii::t('TourModule.widgets_views_tourPanel', ' Remove panel'),
                 'linkHref' => $this->createUrl("//tour/tour/hidePanel", array("ajax" => 1)),
                 'confirmJS' => '$(".panel-tour").slideToggle("slow")'

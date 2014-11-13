@@ -137,6 +137,13 @@ class ProfileFieldTypeSelect extends ProfileFieldType
         return $value;
     }
 
+    public function attributeLabels()
+    {
+        return array(
+            'options'=>'选项',
+        );
+    }
+
 }
 
 ?>

@@ -17,14 +17,16 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Currently</strong> installed modules' => '@@<strong>当前</strong> 已安装模块@@',
+  '<strong>Currently</strong> installed modules' => '<strong>当前</strong> 已安装模块',
   '<strong>Modules</strong> directory' => '<strong>模块</strong> 目录',
   'Are you sure? *ALL* module data will be lost!' => '确定吗？所有模块数据将被删除！',
   'Are you sure? *ALL* module related data and files will be lost!' => '确定吗？所有模块相关的数据和文件会丢失！',
   'Configure' => '配置',
+  'No modules installed yet. Install some to enhance the functionality!' =>'还没有安装模块。安装一些模块来增强功能！',
   'Disable' => '失效',
   'Enable' => '生效',
   'More info' => '更多信息',
   'Set as default' => '设置为默认',
   'Uninstall' => '卸载',
+  'Version:' => '版本信息:',
 );

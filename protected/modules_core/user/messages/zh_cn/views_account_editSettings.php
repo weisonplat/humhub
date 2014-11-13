@@ -18,6 +18,6 @@
  */
 return array (
   '<strong>User</strong> settings' => '<strong>用户</strong> 设置',
-  'Getting Started' => '现在开始',
+  'Getting Started' => '用户指南',
   'Save' => '保存',
 );

@@ -18,7 +18,7 @@
  */
 return array (
   ' Remove panel' => '移除版块',
-  '<strong>Getting</strong> Started' => '<strong>马上</strong>开始',
+  '<strong>Getting</strong> Started' => '<strong>用户</strong> 指南',
   '<strong>Guide:</strong> Administration (Modules)' => '<strong>指南：</strong>管理（模块）',
   '<strong>Guide:</strong> Overview' => '<strong>指南：</strong>概述',
   '<strong>Guide:</strong> Spaces' => '<strong>指南：</strong>版块',

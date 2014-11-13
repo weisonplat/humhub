@@ -27,7 +27,7 @@ return array (
   'Social bookmarks' => '社交标签',
   'Sort order' => '排序',
   'Title' => '标题',
-  'Translation Category ID' => '',
+  'Translation Category ID' => '语言翻译文件标识',
   'Updated at' => '修改时间',
   'Updated by' => '修改人',
   'Visibility' => '可见性',

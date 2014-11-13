@@ -22,7 +22,7 @@
                 ),
                 array(
                     'name' => 'username',
-                    'header' => 'Username',
+                    'header' => '用户名',
                     'filter' => CHtml::activeTextField($model, 'username', array('placeholder' => Yii::t('AdminModule.views_approval_index', 'Search for username'))),
                 ),
                 array(

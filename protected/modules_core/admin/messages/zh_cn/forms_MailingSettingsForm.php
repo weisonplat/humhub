@@ -24,4 +24,5 @@ return array (
   'Password' => '密码',
   'Port number' => '端口号',
   'Username' => '用户名',
+  'Hostname' => '邮件服务器主机名',
 );

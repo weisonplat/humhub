@@ -26,7 +26,7 @@
                     <h4 class="media-heading"><?php echo $module['name']; ?>
                         <?php if (Yii::app()->moduleManager->isInstalled($module['id'])): ?>
                             <small><span
-                                    class="label label-success"><?php echo Yii::t('AdminModules.module_listOnline', 'Installed'); ?>
+                                    class="label label-success"><?php echo Yii::t('AdminModule.views_module_listOnline', 'Installed'); ?>
                             </small></span>
                         <?php endif; ?>
                     </h4>

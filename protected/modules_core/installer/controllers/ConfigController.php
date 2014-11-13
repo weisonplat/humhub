@@ -730,8 +730,8 @@ class ConfigController extends Controller
         // }
 
         $group = new Group();
-        $group->name = "Users";
-        $group->description = "Example Group by Installer";
+        $group->name = "管理组";
+        $group->description = "安装时自动创建的第一个用户组";
         $group->save();
     }
 

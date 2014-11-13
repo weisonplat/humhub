@@ -58,7 +58,7 @@
             'maxUsers' => 2,
             'model' => $group,
             'attribute' => 'adminGuids',
-            'placeholderText' => 'Add a user'
+            'placeholderText' => '添加一个用户'
         ));
         ?>
 

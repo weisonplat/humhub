@@ -396,7 +396,7 @@ class SettingController extends Controller
             }
         }
 
-        $encryptionTypes = array('' => 'None', 'ssl' => 'SSL');
+        $encryptionTypes = array('' => '无', 'ssl' => 'SSL');
         $transportTypes = array('php' => 'PHP', 'smtp' => 'SMTP');
 
         $this->render('mailing_server', array('model' => $form, 'encryptionTypes' => $encryptionTypes, 'transportTypes' => $transportTypes));

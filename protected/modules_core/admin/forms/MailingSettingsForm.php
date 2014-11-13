@@ -44,6 +44,7 @@ class MailingSettingsForm extends CFormModel {
             'password' => Yii::t('AdminModule.forms_MailingSettingsForm', 'Password'),
             'port' => Yii::t('AdminModule.forms_MailingSettingsForm', 'Port number'),
             'encryption' => Yii::t('AdminModule.forms_MailingSettingsForm', 'Encryption'),
+            'hostname' => Yii::t('AdminModule.forms_MailingSettingsForm', 'Hostname'),
         );
     }
 

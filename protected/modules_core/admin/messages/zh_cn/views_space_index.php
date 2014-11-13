@@ -17,9 +17,9 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Define here default settings for new spaces.' => '',
-  'Overview' => '',
-  'Settings' => '',
+  'Define here default settings for new spaces.' => '为新版块设置默认选项。',
+  'Overview' => '浏览',
+  'Settings' => '设置',
   'By Invite' => '@@被邀请@@',
   'By invite' => '@@被邀请@@',
   'Everbody' => '@@每个人@@',

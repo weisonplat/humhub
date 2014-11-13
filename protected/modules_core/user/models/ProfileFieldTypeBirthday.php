@@ -132,6 +132,12 @@ class ProfileFieldTypeBirthday extends ProfileFieldTypeDateTime
         }
     }
 
+    public function attributeLabels() {
+        return array(
+            'showTimePicker' => '显示时间选择器',
+        );
+    }
+
 }
 
 ?>

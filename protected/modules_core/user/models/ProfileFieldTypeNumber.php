@@ -56,6 +56,15 @@ class ProfileFieldTypeNumber extends ProfileFieldType {
         )));
     }
 
+    public function attributeLabels()
+    {
+        return array(
+            'maxValue' => '最大值',
+            'minValue' => '最小值',
+        );
+    }
+
+
     /**
      * Saves this Profile Field Type
      */

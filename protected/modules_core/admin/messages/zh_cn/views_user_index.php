@@ -17,8 +17,8 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Add new user' => '',
-  'Overview' => '',
+  'Add new user' => '添加用户',
+  'Overview' => '浏览',
   '<strong>Manage</strong> users' => '<strong>管理</strong> 用户',
   'Admin' => '管理',
   'All' => '所有',
