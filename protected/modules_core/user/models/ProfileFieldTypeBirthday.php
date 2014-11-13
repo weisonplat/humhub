@@ -104,7 +104,7 @@ class ProfileFieldTypeBirthday extends ProfileFieldTypeDateTime
     {
         $labels = array();
         $labels[$this->profileField->internal_name] = Yii::t($this->profileField->getTranslationCategory(), $this->profileField->title);
-        $labels[$this->profileField->internal_name . "_hide_year"] = Yii::t($this->profileField->getTranslationCategory(), "Hide year in profile");
+        $labels[$this->profileField->internal_name . "_hide_year"] = Yii::t($this->profileField->getTranslationCategory(), "在你的属性页隐藏年");
         return $labels;
     }
 
