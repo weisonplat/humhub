@@ -37,7 +37,7 @@ class AccountChangeEmailForm extends CFormModel {
             array('currentPassword, newEmail', 'required'),
             array('currentPassword', 'CheckPasswordValidator'),
             array('newEmail', 'email'),
-            array('newEmail', 'unique', 'attributeName' => 'email', 'caseSensitive' => false, 'className' => 'User', 'message' => '{attribute} "{value}" is already in use!'),
+            array('newEmail', 'unique', 'attributeName' => 'email', 'caseSensitive' => false, 'className' => 'User', 'message' => '{attribute} "{value}" 已经被使用!'),
         );
     }
 

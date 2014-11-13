@@ -21,7 +21,7 @@
                     <!-- show content -->
                     <div class="media-body">
                         <strong><?php echo $message->getLastEntry()->user->displayName; ?>
-                            <small>(<?php echo count($users) . ' recipients'; ?>)</small>
+                            <small>(<?php echo count($users) . ' 收件人'; ?>)</small>
                         </strong>
                         <br>
                         <h5><?php print CHtml::encode(Helpers::truncateText($message->title, 35)); ?></h5>

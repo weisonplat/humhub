@@ -17,9 +17,9 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Confirm</strong> comment deleting' => '',
-  'Cancel' => '',
-  'Do you really want to delete this comment?' => '',
-  'Updated :timeago' => '',
-  'Delete' => '删除',
+  '<strong>Confirm</strong> comment deleting' => '<strong>确定</strong> 删除评论',
+  'Cancel' => '取 消',
+  'Do you really want to delete this comment?' => '你真的想删除这条评论吗？',
+  'Updated :timeago' => '修改于 :timeago',
+  'Delete' => '删 除',
 );

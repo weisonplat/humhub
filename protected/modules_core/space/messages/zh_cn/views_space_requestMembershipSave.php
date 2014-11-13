@@ -17,7 +17,7 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '<strong>Request</strong> space membership' => '',
-  'Close' => '',
-  'Your request was successfully submitted to the space administrators.' => '',
+  '<strong>Request</strong> space membership' => '<strong>请求</strong> 加入版块',
+  'Close' => '关 闭',
+  'Your request was successfully submitted to the space administrators.' => '您的请求已成功提交到版块管理员。',
 );

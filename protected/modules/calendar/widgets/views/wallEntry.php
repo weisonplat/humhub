@@ -42,7 +42,7 @@
         </div>
 
 
-        <strong>Event: <?php echo $calendarEntry->title; ?></strong><br />
+        <strong>事件: <?php echo $calendarEntry->title; ?></strong><br />
         <?php $this->widget('application.modules.calendar.widgets.CalendarEntryDateWidget', array('calendarEntry' => $calendarEntry)); ?><br />
         <br />
         <?php $this->widget('application.modules.calendar.widgets.CalendarEntryParticipantsWidget', array('calendarEntry' => $calendarEntry)); ?><br />

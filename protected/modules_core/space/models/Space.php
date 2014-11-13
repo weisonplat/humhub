@@ -105,7 +105,7 @@ class Space extends HActiveRecordContentContainer implements ISearchable
         if ($this->scenario == 'edit') {
             $rules = array(
                 array('name', 'required'),
-                array('name', 'unique', 'caseSensitive' => false, 'className' => 'Space', 'message' => '{attribute} "{value}" is already in use! '),
+                array('name', 'unique', 'caseSensitive' => false, 'className' => 'Space', 'message' => '{attribute} "{value}" 已经被使用! '),
                 array('website', 'url'),
                 array('description, tags', 'safe'),
                 array('join_policy', 'in', 'range' => array(0, 1, 2)),
@@ -128,7 +128,7 @@ class Space extends HActiveRecordContentContainer implements ISearchable
             array('name, website', 'length', 'max' => 45),
             array('ldap_dn', 'length', 'max' => 255),
             array('website', 'url'),
-            array('name', 'unique', 'caseSensitive' => false, 'className' => 'Space', 'message' => '{attribute} "{value}" is already in use! '),
+            array('name', 'unique', 'caseSensitive' => false, 'className' => 'Space', 'message' => '{attribute} "{value}" 已经被使用! '),
             array('join_policy', 'in', 'range' => array(0, 1, 2)),
             array('visibility', 'in', 'range' => array(0, 1, 2)),
             array('status', 'in', 'range' => array(0, 1, 2)),

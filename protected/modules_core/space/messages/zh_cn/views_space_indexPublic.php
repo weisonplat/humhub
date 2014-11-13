@@ -17,14 +17,14 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Accept Invite' => '',
-  'Become member' => '',
-  'Cancel membership' => '',
-  'Cancel pending membership application' => '',
-  'Deny Invite' => '',
-  'Follow' => '',
-  'Request membership' => '',
-  'Unfollow' => '',
-  'You are the owner of this workspace.' => '',
-  'created by' => '',
+  'Accept Invite' => '接受邀请',
+  'Become member' => '成为成员',
+  'Cancel membership' => '取消成员',
+  'Cancel pending membership application' => '取消待定的成员申请',
+  'Deny Invite' => '拒绝邀请',
+  'Follow' => '关注',
+  'Request membership' => '请求成为成员',
+  'Unfollow' => '取消关注',
+  'You are the owner of this workspace.' => '你是这个版块的拥有者',
+  'created by' => '创建人',
 );

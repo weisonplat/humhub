@@ -16,7 +16,7 @@
         'uniqueID' => 'modal_permalink_'. $id,
         'linkOutput' => 'a',
         'title' => Yii::t('WallModule.widgets_views_permaLink', '<strong>Permalink</strong> to this post'),
-        'message' => '<textarea rows="3" id="permalink-txt-'. $id .'" class="form-control permalink-txt">'. Yii::app()->createAbsoluteUrl('//wall/perma/content', array('model' => $model, 'id' => $id)) .'</textarea><p class="help-block">Copy to clipboard: Ctrl+C, Enter</p>',
+        'message' => '<textarea rows="3" id="permalink-txt-'. $id .'" class="form-control permalink-txt">'. Yii::app()->createAbsoluteUrl('//wall/perma/content', array('model' => $model, 'id' => $id)) .'</textarea><p class="help-block">复制到剪贴板: Ctrl+C</p>',
         'buttonFalse' => Yii::t('WallModule.widgets_views_permaLink', 'Close'),
         'linkContent' => '<i class="fa fa-link"></i> ' . Yii::t('WallModule.widgets_views_permaLink', 'Permalink'),
         'linkHref' => '',
